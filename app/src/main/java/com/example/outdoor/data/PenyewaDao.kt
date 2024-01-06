@@ -19,4 +19,7 @@ interface PenyewaDao {
 
     @Query("SELECT * from penyewa WHERE id = :id")
     fun getPenyewa(id: Int): Flow<Penyewa>
+
+    @Query("SELECT * from penyewa ORDER BY nama ASC")
+    fun getAllPenyewa():Flow<List<Penyewa>>
 }
