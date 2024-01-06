@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Outdoor</string>
+    <string name="app_name">Adventure Mountain</string>
+    <string name="Started_Button">GET STARTED</string>
+    <string name="addPesan_Button">Buat Pesanan</string>
+    <string name="data_pesanan">Data Pesanan</string>
+    <string name="edit_pesanan">Edit Pesanan</string>
+    <string name="form_pesan">Form Pemesanan</string>
+    <string name="nama_pemesan">Nama</string>
+    <string name="nohp">No. Telepon</string>
+    <string name="alamat">Alamat</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="barang_pesan">Barang Yang Dipesan :</string>
+    <string name="tenda">Tenda</string>
+    <string name="jaket">Jaket</string>
+    <string name="sepatu">Sepatu</string>
+    <string name="sarung_tangan">Sarung Tangan</string>
+    <string name="sb">Sleeping Bag</string>
 </resources>
