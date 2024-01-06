@@ -1,3 +1,7 @@
 package com.example.outdoor.data
 
-abstract class DatabaseOutdoor(){}
+import androidx.room.RoomDatabase
+
+abstract class DatabaseOutdoor : RoomDatabase(){
+
+}
