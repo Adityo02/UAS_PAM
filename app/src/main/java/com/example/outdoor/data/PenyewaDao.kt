@@ -3,7 +3,9 @@ package com.example.outdoor.data
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import androidx.room.Update
+import kotlinx.coroutines.flow.Flow
 
 interface PenyewaDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
@@ -14,4 +16,7 @@ interface PenyewaDao {
 
     @Delete
     suspend fun  delete(penyewa: Penyewa)
+
+    @Query("SELECT * from penyewa WHERE id = :id")
+    fun getPenyewa(id: Int): Flow<Penyewa>
 }
