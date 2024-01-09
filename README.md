@@ -8,7 +8,7 @@
 ## Use Case
 
 <p align=center>
-  <img alt="Use Case Diagram" width=800 src="https://github.com/Adityo02/UAS_PAM/assets/114916219/0ad0d172-4244-4ad7-b863-b3ffeb6d443a">
+  <img alt="Use Case Diagram" width=800 src="https://github.com/Adityo02/UAS_PAM/assets/114916219/c58b754c-bdbe-4f7d-ad4d-cd82e33431c0">
 </p>
 
 * ***Get Started* (Halaman Awal):**
