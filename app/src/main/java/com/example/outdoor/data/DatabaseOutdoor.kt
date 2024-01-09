@@ -1,10 +1,12 @@
 package com.example.outdoor.data
 
 import android.content.Context
+import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import kotlinx.coroutines.InternalCoroutinesApi
 
+@Database(entities = [Penyewa::class], exportSchema = false, version = 1)
 abstract class DatabaseOutdoor : RoomDatabase(){
     abstract fun penyewaDao(): PenyewaDao
     companion object {
