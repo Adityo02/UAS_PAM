@@ -15,6 +15,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.outdoor.ui.GetStartedDestinasi
+import com.example.outdoor.ui.Homepage
 import com.example.outdoor.ui.halaman.DetailScreen
 import com.example.outdoor.ui.halaman.EntryPesananScreen
 import com.example.outdoor.ui.halaman.HomeScreen
@@ -58,7 +60,12 @@ fun HostNavigasi(
     navController: NavHostController,
     modifier: Modifier = Modifier
 ) {
-    NavHost(navController = navController, startDestination = RouteHome.route) {
+    NavHost(navController = navController, startDestination = GetStartedDestinasi.route) {
+        composable(GetStartedDestinasi.route){
+            Homepage (
+                onNextButtonClicked = {navController.navigate(RouteHome.route)}
+            )
+        }
         composable(RouteHome.route) {
             HomeScreen(
                 navigateToItemEntry = { navController.navigate(RouteEntry.route) },
