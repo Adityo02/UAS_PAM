@@ -21,5 +21,5 @@ Pengguna dapat menambahkan pesanan.
 Pengguna dapat melihat detail Pesanan yang sudah dibuat, serta dapat memperbarui pesanan dan menghapus pesanan.
 
 ## Project Management (TEAM)
-Adityo Arya Putra : Halaman Awal, Halaman View, Halaman Detail, Create, Read.<br>
-Bagus Ahlul Tri Margiono Putro : Halaman Form, Database, Update, Delete.
+Adityo Arya Putra : Halaman Awal, Halaman View, Halaman Form, Create, Read.<br>
+Bagus Ahlul Tri Margiono Putro : Halaman Detail, Database, Update, Delete.
